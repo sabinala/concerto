@@ -436,68 +436,68 @@ model smetana
 	k_r107=0.46
 	k_d108=0.3333333333333333
 	k_r108=0.22
-	M_gua_e=0.5488135039273248
-	M_urea_e=0.7151893663724195
-	updated_csc009=0.6027633760716439
-	M_pi_e=0.5448831829968969
-	M_glu__L_e=0.4236547993389047
-	M_arg__L_e=0.6458941130666561
-	M_orn_e=0.4375872112626925
-	M_pydxn_e=0.8917730007820798
-	M_xylan4_e=0.9636627605010293
-	M_gthrd_e=0.3834415188257777
-	updated_csc052=0.7917250380826646
-	M_fe3pyovd_kt_e=0.5288949197529045
-	M_ppap_e=0.5680445610939323
-	M_4abut_e=0.925596638292661
-	updated_csc040=0.07103605819788694
-	M_ptrc_e=0.08712929970154071
-	M_nh4_e=0.02021839744032572
-	M_fe3_e=0.832619845547938
-	M_xyl__D_e=0.7781567509498505
-	csc043=0.8700121482468192
-	M_o2_e=0.978618342232764
-	M_ura_e=0.7991585642167236
-	M_asp__L_e=0.46147936225293185
-	M_ser__L_e=0.7805291762864555
-	M_hom__L_e=0.11827442586893322
-	M_glyc_e=0.6399210213275238
-	updated_csc031=0.1433532874090464
-	M_rib__D_e=0.9446689170495839
-	M_lys__L_e=0.5218483217500717
-	M_glyald_e=0.4146619399905236
-	M_s_e=0.26455561210462697
-	M_h2s_e=0.7742336894342167
-	M_gua_e is "M_gua_e"
-	M_urea_e is "M_urea_e"
-	updated_csc009 is "updated_csc009"
-	M_pi_e is "M_pi_e"
-	M_glu__L_e is "M_glu__L_e"
-	M_arg__L_e is "M_arg__L_e"
-	M_orn_e is "M_orn_e"
-	M_pydxn_e is "M_pydxn_e"
-	M_xylan4_e is "M_xylan4_e"
-	M_gthrd_e is "M_gthrd_e"
-	updated_csc052 is "updated_csc052"
-	M_fe3pyovd_kt_e is "M_fe3pyovd_kt_e"
-	M_ppap_e is "M_ppap_e"
-	M_4abut_e is "M_4abut_e"
-	updated_csc040 is "updated_csc040"
-	M_ptrc_e is "M_ptrc_e"
-	M_nh4_e is "M_nh4_e"
-	M_fe3_e is "M_fe3_e"
-	M_xyl__D_e is "M_xyl__D_e"
-	csc043 is "csc043"
-	M_o2_e is "M_o2_e"
-	M_ura_e is "M_ura_e"
+	M_asp__L_e=0.5488135039273248
+	M_ser__L_e=0.7151893663724195
+	M_h2s_e=0.6027633760716439
+	M_fe3_e=0.5448831829968969
+	M_s_e=0.4236547993389047
+	M_orn_e=0.6458941130666561
+	updated_csc009=0.4375872112626925
+	M_pi_e=0.8917730007820798
+	M_hom__L_e=0.9636627605010293
+	M_fe3pyovd_kt_e=0.3834415188257777
+	M_xylan4_e=0.7917250380826646
+	M_pydxn_e=0.5288949197529045
+	M_rib__D_e=0.5680445610939323
+	M_nh4_e=0.925596638292661
+	updated_csc052=0.07103605819788694
+	M_lys__L_e=0.08712929970154071
+	M_arg__L_e=0.02021839744032572
+	M_gua_e=0.832619845547938
+	M_glyc_e=0.7781567509498505
+	updated_csc031=0.8700121482468192
+	updated_csc040=0.978618342232764
+	M_glyald_e=0.7991585642167236
+	M_o2_e=0.46147936225293185
+	M_ppap_e=0.7805291762864555
+	M_gthrd_e=0.11827442586893322
+	M_xyl__D_e=0.6399210213275238
+	M_glu__L_e=0.1433532874090464
+	M_ura_e=0.9446689170495839
+	M_urea_e=0.5218483217500717
+	M_ptrc_e=0.4146619399905236
+	csc043=0.26455561210462697
+	M_4abut_e=0.7742336894342167
 	M_asp__L_e is "M_asp__L_e"
 	M_ser__L_e is "M_ser__L_e"
+	M_h2s_e is "M_h2s_e"
+	M_fe3_e is "M_fe3_e"
+	M_s_e is "M_s_e"
+	M_orn_e is "M_orn_e"
+	updated_csc009 is "updated_csc009"
+	M_pi_e is "M_pi_e"
 	M_hom__L_e is "M_hom__L_e"
+	M_fe3pyovd_kt_e is "M_fe3pyovd_kt_e"
+	M_xylan4_e is "M_xylan4_e"
+	M_pydxn_e is "M_pydxn_e"
+	M_rib__D_e is "M_rib__D_e"
+	M_nh4_e is "M_nh4_e"
+	updated_csc052 is "updated_csc052"
+	M_lys__L_e is "M_lys__L_e"
+	M_arg__L_e is "M_arg__L_e"
+	M_gua_e is "M_gua_e"
 	M_glyc_e is "M_glyc_e"
 	updated_csc031 is "updated_csc031"
-	M_rib__D_e is "M_rib__D_e"
-	M_lys__L_e is "M_lys__L_e"
+	updated_csc040 is "updated_csc040"
 	M_glyald_e is "M_glyald_e"
-	M_s_e is "M_s_e"
-	M_h2s_e is "M_h2s_e"
+	M_o2_e is "M_o2_e"
+	M_ppap_e is "M_ppap_e"
+	M_gthrd_e is "M_gthrd_e"
+	M_xyl__D_e is "M_xyl__D_e"
+	M_glu__L_e is "M_glu__L_e"
+	M_ura_e is "M_ura_e"
+	M_urea_e is "M_urea_e"
+	M_ptrc_e is "M_ptrc_e"
+	csc043 is "csc043"
+	M_4abut_e is "M_4abut_e"
 end

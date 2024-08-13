@@ -1,0 +1,141 @@
+{
+  "header": {
+    "name": "microbial_induced_calcium_carbonate_precipitation_petri_net_model",
+    "schema": "https://raw.githubusercontent.com/DARPA-ASKEM/Model-Representations/petrinet_v0.6/petrinet/petrinet_schema.json",
+    "schema_name": "petrinet",
+    "description": "microbial_induced_calcium_carbonate_precipitation_petri_net_model",
+    "model_version": "0.1"
+  },
+  "properties": {},
+  "model": {
+    "states": [],
+    "transitions": []
+  },
+  "semantics": {
+    "ode": {
+      "rates": [],
+      "initials": [],
+      "parameters": [
+        {
+          "id": "V_max_urease",
+          "value": 18000.0
+        },
+        {
+          "id": "K_m_urease",
+          "value": 0.3
+        },
+        {
+          "id": "k2f",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k2r",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "K_cat_CA",
+          "value": 530000.0
+        },
+        {
+          "id": "CA_conc",
+          "value": 3e-05
+        },
+        {
+          "id": "K_m_CA",
+          "value": 12.9
+        },
+        {
+          "id": "k4f",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k4r",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k5f",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k5r",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k6f",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "k6r",
+          "value": 1.0,
+          "distribution": {
+            "type": "Uniform1",
+            "parameters": {
+              "minimum": 0.001,
+              "maximum": 1.0
+            }
+          }
+        },
+        {
+          "id": "default_compartment",
+          "value": 1.0
+        }
+      ],
+      "observables": [],
+      "time": {
+        "id": "t"
+      }
+    }
+  },
+  "metadata": {
+    "annotations": {}
+  }
+}

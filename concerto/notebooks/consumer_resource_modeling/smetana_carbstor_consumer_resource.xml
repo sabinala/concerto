@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
   <model metaid="smetana" id="smetana">
     <listOfCompartments>
       <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="updated_csc031" compartment="default_compartment" initialAmount="0.383441518825778" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_arg__L_e" compartment="default_compartment" initialAmount="0.715189366372419" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc009" compartment="default_compartment" initialAmount="0.639921021327524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_gua_e" compartment="default_compartment" initialAmount="0.118274425868933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_h2s_e" compartment="default_compartment" initialAmount="0.461479362252932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_hom__L_e" compartment="default_compartment" initialAmount="0.645894113066656" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_nh4_e" compartment="default_compartment" initialAmount="0.799158564216724" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_orn_e" compartment="default_compartment" initialAmount="0.780529176286455" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc040" compartment="default_compartment" initialAmount="0.870012148246819" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_4abut_e" compartment="default_compartment" initialAmount="0.0202183974403257" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_asp__L_e" compartment="default_compartment" initialAmount="0.0710360581978869" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_fe3_e" compartment="default_compartment" initialAmount="0.548813503927325" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_fe3pyovd_kt_e" compartment="default_compartment" initialAmount="0.568044561093932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc031" compartment="default_compartment" initialAmount="0.870012148246819" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_arg__L_e" compartment="default_compartment" initialAmount="0.0202183974403257" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc009" compartment="default_compartment" initialAmount="0.437587211262693" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gua_e" compartment="default_compartment" initialAmount="0.832619845547938" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_h2s_e" compartment="default_compartment" initialAmount="0.602763376071644" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_hom__L_e" compartment="default_compartment" initialAmount="0.963662760501029" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_nh4_e" compartment="default_compartment" initialAmount="0.925596638292661" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_orn_e" compartment="default_compartment" initialAmount="0.645894113066656" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc040" compartment="default_compartment" initialAmount="0.978618342232764" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_4abut_e" compartment="default_compartment" initialAmount="0.774233689434217" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_asp__L_e" compartment="default_compartment" initialAmount="0.548813503927325" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3_e" compartment="default_compartment" initialAmount="0.544883182996897" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3pyovd_kt_e" compartment="default_compartment" initialAmount="0.383441518825778" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="M_glu__L_e" compartment="default_compartment" initialAmount="0.143353287409046" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_pi_e" compartment="default_compartment" initialAmount="0.528894919752904" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_pydxn_e" compartment="default_compartment" initialAmount="0.521848321750072" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_s_e" compartment="default_compartment" initialAmount="0.978618342232764" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ser__L_e" compartment="default_compartment" initialAmount="0.77815675094985" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_urea_e" compartment="default_compartment" initialAmount="0.602763376071644" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc052" compartment="default_compartment" initialAmount="0.423654799338905" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_gthrd_e" compartment="default_compartment" initialAmount="0.832619845547938" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pi_e" compartment="default_compartment" initialAmount="0.89177300078208" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pydxn_e" compartment="default_compartment" initialAmount="0.528894919752904" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_s_e" compartment="default_compartment" initialAmount="0.423654799338905" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ser__L_e" compartment="default_compartment" initialAmount="0.715189366372419" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_urea_e" compartment="default_compartment" initialAmount="0.521848321750072" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc052" compartment="default_compartment" initialAmount="0.0710360581978869" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gthrd_e" compartment="default_compartment" initialAmount="0.118274425868933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="M_ptrc_e" compartment="default_compartment" initialAmount="0.414661939990524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="csc043" compartment="default_compartment" initialAmount="0.264555612104627" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_xylan4_e" compartment="default_compartment" initialAmount="0.925596638292661" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_glyald_e" compartment="default_compartment" initialAmount="0.944668917049584" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_glyc_e" compartment="default_compartment" initialAmount="0.774233689434217" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_rib__D_e" compartment="default_compartment" initialAmount="0.0871292997015407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_lys__L_e" compartment="default_compartment" initialAmount="0.544883182996897" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_o2_e" compartment="default_compartment" initialAmount="0.791725038082665" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ura_e" compartment="default_compartment" initialAmount="0.963662760501029" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_xyl__D_e" compartment="default_compartment" initialAmount="0.437587211262693" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ppap_e" compartment="default_compartment" initialAmount="0.89177300078208" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xylan4_e" compartment="default_compartment" initialAmount="0.791725038082665" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyald_e" compartment="default_compartment" initialAmount="0.799158564216724" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyc_e" compartment="default_compartment" initialAmount="0.77815675094985" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_rib__D_e" compartment="default_compartment" initialAmount="0.568044561093932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_lys__L_e" compartment="default_compartment" initialAmount="0.0871292997015407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_o2_e" compartment="default_compartment" initialAmount="0.461479362252932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ura_e" compartment="default_compartment" initialAmount="0.944668917049584" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xyl__D_e" compartment="default_compartment" initialAmount="0.639921021327524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ppap_e" compartment="default_compartment" initialAmount="0.780529176286455" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="k_d0" value="0.333333333333333" constant="true"/>
@@ -259,7 +259,7 @@
       <parameter id="k_r108" value="0.22" constant="true"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction id="_J0" reversible="true">
+      <reaction id="_J0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -276,7 +276,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J1" reversible="true">
+      <reaction id="_J1" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -293,7 +293,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J2" reversible="true">
+      <reaction id="_J2" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -310,7 +310,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J3" reversible="true">
+      <reaction id="_J3" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -327,7 +327,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J4" reversible="true">
+      <reaction id="_J4" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -344,7 +344,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J5" reversible="true">
+      <reaction id="_J5" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -361,7 +361,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J6" reversible="true">
+      <reaction id="_J6" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -378,7 +378,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J7" reversible="true">
+      <reaction id="_J7" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -395,7 +395,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J8" reversible="true">
+      <reaction id="_J8" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -412,7 +412,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J9" reversible="true">
+      <reaction id="_J9" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -429,7 +429,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J10" reversible="true">
+      <reaction id="_J10" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -446,7 +446,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J11" reversible="true">
+      <reaction id="_J11" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -463,7 +463,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J12" reversible="true">
+      <reaction id="_J12" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -480,7 +480,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J13" reversible="true">
+      <reaction id="_J13" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_4abut_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -497,7 +497,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J14" reversible="true">
+      <reaction id="_J14" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -514,7 +514,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J15" reversible="true">
+      <reaction id="_J15" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -531,7 +531,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J16" reversible="true">
+      <reaction id="_J16" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -548,7 +548,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J17" reversible="true">
+      <reaction id="_J17" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -565,7 +565,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J18" reversible="true">
+      <reaction id="_J18" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -582,7 +582,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J19" reversible="true">
+      <reaction id="_J19" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -599,7 +599,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J20" reversible="true">
+      <reaction id="_J20" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -616,7 +616,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J21" reversible="true">
+      <reaction id="_J21" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -633,7 +633,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J22" reversible="true">
+      <reaction id="_J22" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -650,7 +650,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J23" reversible="true">
+      <reaction id="_J23" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -667,7 +667,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J24" reversible="true">
+      <reaction id="_J24" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -684,7 +684,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J25" reversible="true">
+      <reaction id="_J25" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -701,7 +701,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J26" reversible="true">
+      <reaction id="_J26" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -718,7 +718,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J27" reversible="true">
+      <reaction id="_J27" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -735,7 +735,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J28" reversible="true">
+      <reaction id="_J28" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -752,7 +752,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J29" reversible="true">
+      <reaction id="_J29" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -769,7 +769,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J30" reversible="true">
+      <reaction id="_J30" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -786,7 +786,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J31" reversible="true">
+      <reaction id="_J31" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -803,7 +803,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J32" reversible="true">
+      <reaction id="_J32" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -820,7 +820,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J33" reversible="true">
+      <reaction id="_J33" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -837,7 +837,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J34" reversible="true">
+      <reaction id="_J34" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -854,7 +854,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J35" reversible="true">
+      <reaction id="_J35" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -871,7 +871,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J36" reversible="true">
+      <reaction id="_J36" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -888,7 +888,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J37" reversible="true">
+      <reaction id="_J37" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_pydxn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -905,7 +905,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J38" reversible="true">
+      <reaction id="_J38" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -922,7 +922,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J39" reversible="true">
+      <reaction id="_J39" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -939,7 +939,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J40" reversible="true">
+      <reaction id="_J40" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -956,7 +956,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J41" reversible="true">
+      <reaction id="_J41" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ser__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -973,7 +973,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J42" reversible="true">
+      <reaction id="_J42" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -990,7 +990,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J43" reversible="true">
+      <reaction id="_J43" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1007,7 +1007,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J44" reversible="true">
+      <reaction id="_J44" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1024,7 +1024,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J45" reversible="true">
+      <reaction id="_J45" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1041,7 +1041,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J46" reversible="true">
+      <reaction id="_J46" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1058,7 +1058,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J47" reversible="true">
+      <reaction id="_J47" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1075,7 +1075,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J48" reversible="true">
+      <reaction id="_J48" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1092,7 +1092,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J49" reversible="true">
+      <reaction id="_J49" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1109,7 +1109,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J50" reversible="true">
+      <reaction id="_J50" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1126,7 +1126,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J51" reversible="true">
+      <reaction id="_J51" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gthrd_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1143,7 +1143,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J52" reversible="true">
+      <reaction id="_J52" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1160,7 +1160,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J53" reversible="true">
+      <reaction id="_J53" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1177,7 +1177,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J54" reversible="true">
+      <reaction id="_J54" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1194,7 +1194,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J55" reversible="true">
+      <reaction id="_J55" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1211,7 +1211,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J56" reversible="true">
+      <reaction id="_J56" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1228,7 +1228,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J57" reversible="true">
+      <reaction id="_J57" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1245,7 +1245,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J58" reversible="true">
+      <reaction id="_J58" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1262,7 +1262,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J59" reversible="true">
+      <reaction id="_J59" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ptrc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1279,7 +1279,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J60" reversible="true">
+      <reaction id="_J60" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1296,7 +1296,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J61" reversible="true">
+      <reaction id="_J61" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1313,7 +1313,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J62" reversible="true">
+      <reaction id="_J62" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1330,7 +1330,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J63" reversible="true">
+      <reaction id="_J63" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1347,7 +1347,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J64" reversible="true">
+      <reaction id="_J64" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1364,7 +1364,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J65" reversible="true">
+      <reaction id="_J65" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1381,7 +1381,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J66" reversible="true">
+      <reaction id="_J66" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1398,7 +1398,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J67" reversible="true">
+      <reaction id="_J67" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1415,7 +1415,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J68" reversible="true">
+      <reaction id="_J68" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1432,7 +1432,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J69" reversible="true">
+      <reaction id="_J69" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1449,7 +1449,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J70" reversible="true">
+      <reaction id="_J70" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1466,7 +1466,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J71" reversible="true">
+      <reaction id="_J71" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1483,7 +1483,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J72" reversible="true">
+      <reaction id="_J72" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1500,7 +1500,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J73" reversible="true">
+      <reaction id="_J73" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1517,7 +1517,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J74" reversible="true">
+      <reaction id="_J74" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1534,7 +1534,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J75" reversible="true">
+      <reaction id="_J75" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1551,7 +1551,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J76" reversible="true">
+      <reaction id="_J76" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1568,7 +1568,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J77" reversible="true">
+      <reaction id="_J77" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1585,7 +1585,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J78" reversible="true">
+      <reaction id="_J78" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1602,7 +1602,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J79" reversible="true">
+      <reaction id="_J79" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1619,7 +1619,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J80" reversible="true">
+      <reaction id="_J80" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1636,7 +1636,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J81" reversible="true">
+      <reaction id="_J81" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1653,7 +1653,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J82" reversible="true">
+      <reaction id="_J82" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1670,7 +1670,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J83" reversible="true">
+      <reaction id="_J83" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1687,7 +1687,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J84" reversible="true">
+      <reaction id="_J84" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1704,7 +1704,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J85" reversible="true">
+      <reaction id="_J85" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1721,7 +1721,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J86" reversible="true">
+      <reaction id="_J86" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1738,7 +1738,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J87" reversible="true">
+      <reaction id="_J87" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1755,7 +1755,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J88" reversible="true">
+      <reaction id="_J88" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1772,7 +1772,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J89" reversible="true">
+      <reaction id="_J89" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1789,7 +1789,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J90" reversible="true">
+      <reaction id="_J90" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1806,7 +1806,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J91" reversible="true">
+      <reaction id="_J91" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1823,7 +1823,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J92" reversible="true">
+      <reaction id="_J92" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1840,7 +1840,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J93" reversible="true">
+      <reaction id="_J93" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1857,7 +1857,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J94" reversible="true">
+      <reaction id="_J94" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1874,7 +1874,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J95" reversible="true">
+      <reaction id="_J95" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1891,7 +1891,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J96" reversible="true">
+      <reaction id="_J96" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1908,7 +1908,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J97" reversible="true">
+      <reaction id="_J97" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1925,7 +1925,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J98" reversible="true">
+      <reaction id="_J98" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1942,7 +1942,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J99" reversible="true">
+      <reaction id="_J99" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1959,7 +1959,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J100" reversible="true">
+      <reaction id="_J100" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1976,7 +1976,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J101" reversible="true">
+      <reaction id="_J101" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1993,7 +1993,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J102" reversible="true">
+      <reaction id="_J102" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2010,7 +2010,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J103" reversible="true">
+      <reaction id="_J103" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2027,7 +2027,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J104" reversible="true">
+      <reaction id="_J104" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2044,7 +2044,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J105" reversible="true">
+      <reaction id="_J105" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2061,7 +2061,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J106" reversible="true">
+      <reaction id="_J106" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2078,7 +2078,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J107" reversible="true">
+      <reaction id="_J107" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2095,7 +2095,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J108" reversible="true">
+      <reaction id="_J108" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2112,7 +2112,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J109" reversible="true">
+      <reaction id="_J109" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2129,7 +2129,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J110" reversible="true">
+      <reaction id="_J110" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2146,7 +2146,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J111" reversible="true">
+      <reaction id="_J111" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2163,7 +2163,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J112" reversible="true">
+      <reaction id="_J112" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2180,7 +2180,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J113" reversible="true">
+      <reaction id="_J113" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2197,7 +2197,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J114" reversible="true">
+      <reaction id="_J114" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2214,7 +2214,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J115" reversible="true">
+      <reaction id="_J115" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2231,7 +2231,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J116" reversible="true">
+      <reaction id="_J116" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2248,7 +2248,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J117" reversible="true">
+      <reaction id="_J117" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2265,7 +2265,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J118" reversible="true">
+      <reaction id="_J118" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2282,7 +2282,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J119" reversible="true">
+      <reaction id="_J119" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2299,7 +2299,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J120" reversible="true">
+      <reaction id="_J120" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2316,7 +2316,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J121" reversible="true">
+      <reaction id="_J121" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2333,7 +2333,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J122" reversible="true">
+      <reaction id="_J122" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2350,7 +2350,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J123" reversible="true">
+      <reaction id="_J123" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2367,7 +2367,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J124" reversible="true">
+      <reaction id="_J124" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2384,7 +2384,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J125" reversible="true">
+      <reaction id="_J125" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2401,7 +2401,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J126" reversible="true">
+      <reaction id="_J126" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2418,7 +2418,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J127" reversible="true">
+      <reaction id="_J127" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2435,7 +2435,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J128" reversible="true">
+      <reaction id="_J128" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2452,7 +2452,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J129" reversible="true">
+      <reaction id="_J129" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2469,7 +2469,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J130" reversible="true">
+      <reaction id="_J130" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2486,7 +2486,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J131" reversible="true">
+      <reaction id="_J131" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2503,7 +2503,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J132" reversible="true">
+      <reaction id="_J132" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2520,7 +2520,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J133" reversible="true">
+      <reaction id="_J133" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2537,7 +2537,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J134" reversible="true">
+      <reaction id="_J134" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2554,7 +2554,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J135" reversible="true">
+      <reaction id="_J135" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2571,7 +2571,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J136" reversible="true">
+      <reaction id="_J136" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2588,7 +2588,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J137" reversible="true">
+      <reaction id="_J137" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2605,7 +2605,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J138" reversible="true">
+      <reaction id="_J138" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2622,7 +2622,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J139" reversible="true">
+      <reaction id="_J139" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2639,7 +2639,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J140" reversible="true">
+      <reaction id="_J140" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2656,7 +2656,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J141" reversible="true">
+      <reaction id="_J141" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2673,7 +2673,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J142" reversible="true">
+      <reaction id="_J142" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2690,7 +2690,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J143" reversible="true">
+      <reaction id="_J143" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2707,7 +2707,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J144" reversible="true">
+      <reaction id="_J144" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2724,7 +2724,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J145" reversible="true">
+      <reaction id="_J145" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2741,7 +2741,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J146" reversible="true">
+      <reaction id="_J146" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2758,7 +2758,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J147" reversible="true">
+      <reaction id="_J147" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2775,7 +2775,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J148" reversible="true">
+      <reaction id="_J148" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2792,7 +2792,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J149" reversible="true">
+      <reaction id="_J149" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2809,7 +2809,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J150" reversible="true">
+      <reaction id="_J150" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2826,7 +2826,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J151" reversible="true">
+      <reaction id="_J151" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2843,7 +2843,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J152" reversible="true">
+      <reaction id="_J152" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2860,7 +2860,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J153" reversible="true">
+      <reaction id="_J153" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2877,7 +2877,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J154" reversible="true">
+      <reaction id="_J154" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2894,7 +2894,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J155" reversible="true">
+      <reaction id="_J155" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2911,7 +2911,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J156" reversible="true">
+      <reaction id="_J156" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2928,7 +2928,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J157" reversible="true">
+      <reaction id="_J157" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ura_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2945,7 +2945,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J158" reversible="true">
+      <reaction id="_J158" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2962,7 +2962,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J159" reversible="true">
+      <reaction id="_J159" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2979,7 +2979,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J160" reversible="true">
+      <reaction id="_J160" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -2996,7 +2996,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J161" reversible="true">
+      <reaction id="_J161" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3013,7 +3013,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J162" reversible="true">
+      <reaction id="_J162" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3030,7 +3030,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J163" reversible="true">
+      <reaction id="_J163" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3047,7 +3047,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J164" reversible="true">
+      <reaction id="_J164" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3064,7 +3064,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J165" reversible="true">
+      <reaction id="_J165" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3081,7 +3081,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J166" reversible="true">
+      <reaction id="_J166" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3098,7 +3098,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J167" reversible="true">
+      <reaction id="_J167" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3115,7 +3115,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J168" reversible="true">
+      <reaction id="_J168" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3132,7 +3132,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J169" reversible="true">
+      <reaction id="_J169" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3149,7 +3149,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J170" reversible="true">
+      <reaction id="_J170" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3166,7 +3166,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J171" reversible="true">
+      <reaction id="_J171" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3183,7 +3183,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J172" reversible="true">
+      <reaction id="_J172" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3200,7 +3200,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J173" reversible="true">
+      <reaction id="_J173" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3217,7 +3217,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J174" reversible="true">
+      <reaction id="_J174" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3234,7 +3234,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J175" reversible="true">
+      <reaction id="_J175" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3251,7 +3251,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J176" reversible="true">
+      <reaction id="_J176" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3268,7 +3268,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J177" reversible="true">
+      <reaction id="_J177" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3285,7 +3285,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J178" reversible="true">
+      <reaction id="_J178" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3302,7 +3302,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J179" reversible="true">
+      <reaction id="_J179" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3319,7 +3319,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J180" reversible="true">
+      <reaction id="_J180" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3336,7 +3336,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J181" reversible="true">
+      <reaction id="_J181" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3353,7 +3353,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J182" reversible="true">
+      <reaction id="_J182" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3370,7 +3370,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J183" reversible="true">
+      <reaction id="_J183" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3387,7 +3387,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J184" reversible="true">
+      <reaction id="_J184" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="csc043" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3404,7 +3404,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J185" reversible="true">
+      <reaction id="_J185" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3421,7 +3421,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J186" reversible="true">
+      <reaction id="_J186" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3438,7 +3438,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J187" reversible="true">
+      <reaction id="_J187" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3455,7 +3455,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J188" reversible="true">
+      <reaction id="_J188" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3472,7 +3472,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J189" reversible="true">
+      <reaction id="_J189" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3489,7 +3489,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J190" reversible="true">
+      <reaction id="_J190" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3506,7 +3506,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J191" reversible="true">
+      <reaction id="_J191" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3523,7 +3523,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J192" reversible="true">
+      <reaction id="_J192" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3540,7 +3540,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J193" reversible="true">
+      <reaction id="_J193" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3557,7 +3557,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J194" reversible="true">
+      <reaction id="_J194" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3574,7 +3574,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J195" reversible="true">
+      <reaction id="_J195" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ppap_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3591,7 +3591,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J196" reversible="true">
+      <reaction id="_J196" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3608,7 +3608,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J197" reversible="true">
+      <reaction id="_J197" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3625,7 +3625,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J198" reversible="true">
+      <reaction id="_J198" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3642,7 +3642,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J199" reversible="true">
+      <reaction id="_J199" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3659,7 +3659,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J200" reversible="true">
+      <reaction id="_J200" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3676,7 +3676,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J201" reversible="true">
+      <reaction id="_J201" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3693,7 +3693,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J202" reversible="true">
+      <reaction id="_J202" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3710,7 +3710,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J203" reversible="true">
+      <reaction id="_J203" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3727,7 +3727,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J204" reversible="true">
+      <reaction id="_J204" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3744,7 +3744,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J205" reversible="true">
+      <reaction id="_J205" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3761,7 +3761,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J206" reversible="true">
+      <reaction id="_J206" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3778,7 +3778,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J207" reversible="true">
+      <reaction id="_J207" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3795,7 +3795,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J208" reversible="true">
+      <reaction id="_J208" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3812,7 +3812,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J209" reversible="true">
+      <reaction id="_J209" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3829,7 +3829,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J210" reversible="true">
+      <reaction id="_J210" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3846,7 +3846,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J211" reversible="true">
+      <reaction id="_J211" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3863,7 +3863,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J212" reversible="true">
+      <reaction id="_J212" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3880,7 +3880,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J213" reversible="true">
+      <reaction id="_J213" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3897,7 +3897,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J214" reversible="true">
+      <reaction id="_J214" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3914,7 +3914,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J215" reversible="true">
+      <reaction id="_J215" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3931,7 +3931,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J216" reversible="true">
+      <reaction id="_J216" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -3948,7 +3948,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="_J217" reversible="true">
+      <reaction id="_J217" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
